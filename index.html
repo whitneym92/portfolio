@@ -36,66 +36,56 @@
         </div>
     </nav>
 
-    <!--Container holding all my about me information-->
-   <div class="container">
+    <!--Wrapper for page content to make sticky footer work-->
+    <div id="page-content">
 
-        <!--First row with about me heading-->
-       <div class="row">
+    <!--Container holding my rows and columns-->
+        <div class="container">
+
+        <!--First row with About Heading-->
+            <div class="row">
             <!--Row spans across all 12 columns-->
-           <div class="col-md-12">
-               <h2>About Me</h2>
-           </div>
-       </div>
-       
+                <div class="col-md-12">
+                    <h2 class="aboutMe">About</h2>
+                </div>
+            </div>
+
         <!--Line Break-->
        <hr/>
 
         <!--Second row containing professinal img and professional info containing 2 columns-->
-       <div class="row">
+            <div class="row">
            
-           <!--This column will hold image-->
-           <div class="col-md-4">
+           <!--This column holds image and spans across 4 columns-->
+                <div class="col-md-4">
+                    <img src="assets/professional.jpg" alt="Professional photo of Whitney Monk" class="img-thumbnail">
+                </div>
 
-           </div>
-           <!--This column will contain text-->
-           <div class="col-md-8">
+           <!--This column will contain text and span across 8 columns-->
+                <div class="col-md-8">
+                    <section>
+                        <p class="text-center"> Hey, I'm Whitney! I'm located in Nashville, TN and am currently attending the Vanderbilt University Coding Boot Camp to become a full-stack web developer.
+                            I specialize in HTML5, CSS3, JavaScript and Bootstrap. Creating code for me is much like photography as it is a means of expression into who I am and what I see.
+                                My desire to constantly learn and to wander places far and wide has led me down the path of web development. My dream is to be able to work remotely so that I can travel
+                                    the world. 
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
 
-           </div>
-       </div>
-
-       <!--Third row contains hobbies and hiking img with 2 columns-->
-       <div class="row">
-
-           <!--This column will contain hobby text-->
-           <div class="col-md-8">
-
-           </div>
-           <!--This column will contain hiking img-->
-           <div class="col-md-4">
-
-           </div>
-
-       </div>
-       <!--Fourth row is Footer-->
-       <div class="row">
-           <!--Row is going to span across 12 columns-->
-           <div class="col-md-12">
-
-           </div>
-       </div>
-   </div>
-
+    <!--This is my sticky footer-->
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+          <small>Copyright &copy; Your Website</small>
+        </div>
+    </footer>
+    
       
  
     
-
-
-
-
-
-
-
-    <!--Link to Javascript-->
+     <!--Link to Javascript-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>

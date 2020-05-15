@@ -1,0 +1,23 @@
+
+/* About Heading*/
+.aboutMe {
+    margin: 50px 0px 0px 0px;
+}
+
+
+/*about me paragraph*/
+.text-center {
+    padding: 30px 0;
+}
+
+
+/* css for sticky footer*/
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+#page-content {
+    flex: 1 0 auto;
+  }
