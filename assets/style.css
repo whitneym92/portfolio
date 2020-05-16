@@ -11,13 +11,16 @@
 }
 
 
-/* css for sticky footer*/
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
+/*Footer*/
 
-#page-content {
-    flex: 1 0 auto;
+.icon {
+    height: 50px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
   }
