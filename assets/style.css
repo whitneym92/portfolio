@@ -4,7 +4,7 @@ body {
   background-image: url("https://download.hipwallpaper.com/desktop/1280/1024/68/28/TVMG0r.jpg");
 }
 
-/* Container on about me page*/
+/* Container on about me & portfolio page*/
 .container {
     border: 10px solid white;
     background-color: white;
@@ -24,7 +24,7 @@ body {
     margin: 0;
     padding: 55px 0;
     text-align: center;
-  }
+}
  
 
 
@@ -41,15 +41,11 @@ body {
     bottom: 0;
     width: 100%;
     text-align: center;
-  } 
+}
 
-  /*Media Query for contact form*/
-  @media screen and (max-width: 600px) {
-    .my-5 a {
-      float: none;
-      width: 100%;
-    }
-
-
-
- 
+/*Media Query for contact form*/
+@media screen and (max-width: 600px) {
+.my-5 a {
+    float: none;
+    width: 100%;
+}}
