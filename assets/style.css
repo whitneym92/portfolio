@@ -2,6 +2,7 @@
 
 body {
   background-image: url("background.jpg");
+  font-family: 'IBM Plex Serif', serif;
 }
 
 /* Container on about me & portfolio page*/
