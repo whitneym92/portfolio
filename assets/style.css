@@ -40,9 +40,16 @@ body {
 
 /*Footer*/
 .icon {
-    height: 50px;
+    height: 45px;
     float: right;
     padding-right: 10px;
+}
+
+.copyright {
+    padding-top: 10px;
+    padding-left: 170px;
+    color: black;
+    font-size: small;
 }
 
 .footer {
@@ -51,6 +58,7 @@ body {
     bottom: 0;
     width: 100%;
     text-align: center;
+    padding-top: 10px;
 }
 
 /*Media Query for contact form*/
