@@ -26,6 +26,11 @@ body {
     padding: 55px 0;
     text-align: center;
 }
+
+/*centered the text in my portfolio cards*/
+.card-body {
+    text-align: center;
+}
  
 
 
