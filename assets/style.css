@@ -14,7 +14,11 @@ body {
     padding-bottom: 50px;
     margin-bottom: 7rem;
 }
-    
+/*container for the contact page*/
+.contact {
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+}  
 
 /* About & Portfolio Heading*/
 .aboutMe {
