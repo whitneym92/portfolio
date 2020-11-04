@@ -1,4 +1,4 @@
- https://whitneym92.github.io/responsive_portfolio/
+ https://whitneym92.github.io/portfolio/
 
  
 
